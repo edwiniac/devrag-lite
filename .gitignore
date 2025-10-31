@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables
+.env
+*.key
+*apikey*
+*api_key*
+
+# Scraped data (can be regenerated)
+scraped_repos/
+*.zip
+
+# AWS CLI installation 
+aws/
+awscliv2.zip
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+.vscode/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.directory
+
+# Project specific temp files
+fix_openai.py
