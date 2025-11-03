@@ -20,9 +20,9 @@ pip-delete-this-directory.txt
 scraped_repos/
 *.zip
 
-# AWS CLI installation 
-aws/
-awscliv2.zip
+# AWS CLI installation (root level only)
+/aws/
+/awscliv2.zip
 
 # Temporary files
 *.tmp
